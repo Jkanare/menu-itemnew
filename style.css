@@ -1,0 +1,74 @@
+#user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 10px;
+}
+#user-info img {
+  width: 60px;
+  height: 50px;
+  padding-left: 8px;
+  border-radius: 50%;
+}
+
+#user-name h3 {
+  margin: 0px;
+}
+
+#user-name p {
+  margin: 0px;
+}
+
+/* body{
+            background-image: url(assets/developer.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        } */
+#main-section {
+  width: 350px;
+  border: 1px solid gray;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+#item-photo img {
+  width: 320px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 12px;
+}
+#best-seller {
+  color: rgb(2, 81, 81);
+  font-weight: bolder;
+  background-color: rgb(216, 239, 242);
+  padding: 3px 5px 3px 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(42, 137, 4);
+  position: absolute;
+  top: 110px;
+  left: 590px;
+}
+
+#must {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 3px 8px;
+  background-color: rgb(216, 239, 242);
+  font-weight: bolder;
+  color: red;
+  position: relative;
+  bottom: 50px;
+  left: 250px;
+}
+.item-desc h2,
+p {
+  margin: 8px;
+  text-align: center;
+}
+#card-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
